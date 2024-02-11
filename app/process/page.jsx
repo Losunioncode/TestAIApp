@@ -57,11 +57,12 @@ const TestProcess = () => {
                     })
                 })
                 
+                const data = await res.json()
+                console.log(data)
 
 
                 if(res.ok){
                     
-                    const data = await res.json()
                     setLoading(false)
 
                     router.push('/profile')
