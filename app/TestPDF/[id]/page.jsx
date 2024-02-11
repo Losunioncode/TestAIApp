@@ -29,7 +29,7 @@ const TestPDF = ({ params }) => {
         
         const getTest = async () => {
             try {
-                const res = await fetch('http://localhost:3000/api/getTestId', {
+                const res = await fetch('https://makertestapp.vercel.app/api/getTestId', {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json"

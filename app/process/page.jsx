@@ -46,7 +46,7 @@ const TestProcess = () => {
                 
                 setLoading(true)
                 
-                const res = await fetch('http://localhost:3000/api/createNew', {
+                const res = await fetch('https://makertestapp.vercel.app/api/createNew', {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json"

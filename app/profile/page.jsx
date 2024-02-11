@@ -34,7 +34,7 @@ const Profile = () => {
       const getPDFTests = async () => {       
          try {
             setLoading(true)
-            const res = await fetch('http://localhost:3000/api/getTests')
+            const res = await fetch('https://makertestapp.vercel.app/api/getTests')
 
             
             if (res.ok){
@@ -68,7 +68,7 @@ const Profile = () => {
    const handleConfirmRemoveTests = async () => {
          try {
             
-            const removePDFTests = await fetch('http://localhost:3000/api/removeTestPDF', {
+            const removePDFTests = await fetch('https://makertestapp.vercel.app/api/removeTestPDF', {
                   
                   method: "POST",
                   headers: {
