@@ -45,7 +45,7 @@ export const POST = async (req) => {
 
     const messageTestAI= response.choices[0].message.content
     if(!(JSON.parse(messageTestAI))){
-        throw new Error('failed to recieved correct data')    
+        throw new Error('failed to recieve correct data')    
     }
     
     try {
@@ -59,17 +59,22 @@ export const POST = async (req) => {
         const savedPDFTest = await createNewPDFTest.save()
         userDataBaseId.PDFTests = userDataBaseId.PDFTests.concat(savedPDFTest._id)
         userDataBaseId.save()
+        return NextResponse.json({ message: "hey" }, { status: 201 })
     
     }catch(err){
         throw new Error(`the error has occured ${err.message}`)
     }
-    
     
 
     
     // console.log(checkFormatMessage)
 
     
-    return NextResponse.json({ message: "hey" }, { status: 201 })
+
+
+
+
+
+
 
 }

@@ -56,7 +56,7 @@ const TestProcess = () => {
                     
                     })
                 })
-                console.log(await res.json())
+                
 
 
                 if(res.ok){

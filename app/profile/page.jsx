@@ -129,13 +129,16 @@ const Profile = () => {
                         >   
                            Create a Test
                         </Link>
-                     <Link
-                        href= "/api/auth/signout"
+                     <button
+
+                        onClick={() => {
+                           signOut() 
+                        }}
                         
                         className="sm:px-[45px] hero-color px-[25px] ml-[6px] order-last gap-[12px] mt-[45px] font-bold  sm:ml-[88px]  py-[11px] rounded-[6px]  cursor-pointer hover:opacity-[.94]"
                      >    
                         Sign out
-                     </Link>
+                     </button>
 
                      <Link href="/" className="sm:order-last hidden">
                         <h4 className="text-[16px] font-light text-hero-text">Logout</h4>
