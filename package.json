@@ -1,0 +1,51 @@
+{
+  "name": "pdffilecreator",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev & npx next-video sync -w",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@cloudinary/react": "^1.12.0",
+    "@cloudinary/url-gen": "^1.16.1",
+    "@coreui/react": "^4.11.1",
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "@fortawesome/free-regular-svg-icons": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@radix-ui/react-icons": "^1.3.0",
+    "@radix-ui/react-progress": "^1.0.3",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@react-pdf/renderer": "^3.3.7",
+    "@vidstack/react": "^1.10.5",
+    "bcrypt": "^5.1.1",
+    "class-variance-authority": "^0.7.0",
+    "cloudinary-react": "^1.8.1",
+    "clsx": "^2.1.0",
+    "lucide-react": "^0.302.0",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.0.1",
+    "mongoose-unique-validator": "^5.0.0",
+    "next": "14.0.3",
+    "next-auth": "^4.24.5",
+    "next-video": "^0.14.1",
+    "openai": "^4.26.0",
+    "puppeteer": "^22.0.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-intersection-observer": "^9.8.0",
+    "react-player": "^2.14.1",
+    "tailwind-merge": "^2.2.1",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8",
+    "react-to-print": "^2.14.15",
+    "tailwindcss": "^3.3.0"
+  }
+}
