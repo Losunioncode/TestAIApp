@@ -12,6 +12,7 @@ const Provider = ({children, session}) => {
           </ProcessContextProvider>
       </SessionProvider>
     )
+
 }
 
 

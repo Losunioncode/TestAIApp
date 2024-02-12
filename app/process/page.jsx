@@ -46,7 +46,7 @@ const TestProcess = () => {
                 
                 setLoading(true)
                 
-                const res = await fetch('https://makertestapp.vercel.app/api/createNew', {
+                const res = await fetch('https://testpdfapp.onrender.com/api/createNew', {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json"

@@ -34,7 +34,7 @@ const Profile = () => {
       const getPDFTests = async () => {       
          try {
             setLoading(true)
-            const res = await fetch('https://makertestapp.vercel.app/api/getTests')
+            const res = await fetch('https://testpdfapp.onrender.com/api/getTests')
 
             
             if (res.ok){

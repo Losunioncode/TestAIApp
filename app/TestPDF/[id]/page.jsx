@@ -29,7 +29,7 @@ const TestPDF = ({ params }) => {
         
         const getTest = async () => {
             try {
-                const res = await fetch('https://makertestapp.vercel.app/api/getTestId', {
+                const res = await fetch('https://testpdfapp.onrender.com/api/getTestId', {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json"
