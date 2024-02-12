@@ -68,7 +68,7 @@ const Profile = () => {
    const handleConfirmRemoveTests = async () => {
          try {
             
-            const removePDFTests = await fetch('https://makertestapp.vercel.app/api/removeTestPDF', {
+            const removePDFTests = await fetch('https://testpdfapp.onrender.com/api/removeTestPDF', {
                   
                   method: "POST",
                   headers: {
