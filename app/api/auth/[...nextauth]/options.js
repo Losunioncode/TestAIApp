@@ -24,7 +24,7 @@ export const authOptions = {
                     const userExist = await User.findOne({ email })
                     console.log(userExist)
                     if(!userExist){
-                        const res = await fetch('http://localhost:3000/api/user', {
+                        const res = await fetch('https://testpdfapp.onrender.com/api/user', {
                             method: "POST",
                             headers: {
                                 "Content-Type": "application/json"
