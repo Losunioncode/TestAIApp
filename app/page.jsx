@@ -19,12 +19,12 @@ const page = () => {
                     <Hero />
                 </div>
             </div>
-            <div className="bg-darkBlue">
-            <div className="container sm:h-[1065px]  ">
-                    
-                    <Example />
-            </div>
-            </div>
+            {/* <div className="bg-darkBlue">
+                <div className="container sm:h-[1065px]  ">
+                        
+                        <Example />
+                </div>
+            </div> */}
             <div className="bg-darkBrightBlue">
                 <div className="container">
                         <Cases /> 
