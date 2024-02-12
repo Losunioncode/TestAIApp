@@ -29,8 +29,8 @@ const Hero = () => {
                             </div> 
                             
                             <h1 className="sm:text-[61px] sm:text-start text-[40px] font-black leading-tight text-center mt-[45px] text-hero-text sm:mt-[25px] hero-text-shadow ">
-                                <p> <span className="text-hero-special-text ">Create </span> quick <span className="text-hero-special-text">PDF test file</span></p>
-                                <p>for your work and study</p>
+                                <p> <span className="text-hero-special-text ">Create </span> quick PDF <span className="text-hero-special-text"> Test File </span> </p>
+                                
                                 
                             </h1>
                             <p className="text-[21px] sm:text-start text-hero-text text-center sm:mt-[10px] font-black mt-[25px] hero-text-shadow ">
@@ -48,7 +48,7 @@ const Hero = () => {
                                     </li>
                                 <li className="text-[18px] flex flex-row text-[#C9C9C9]/[.81] mt-[6px] font-bold ">
                                     <Check className="text-[#FFF7B1] mr-[6px] " strokeWidth={3}/>
-                                    Any topic that you wish!
+                                    Any topic you wish!
                                 </li>
                                 <li className="text-[18px] flex flex-row text-[#C9C9C9]/[.81] mt-[6px] font-bold ">
                                     <Check className="text-[#FFF7B1] mr-[6px] " strokeWidth={3}/>
