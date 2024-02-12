@@ -12,6 +12,7 @@ const Hero = () => {
   const { data: session } = useSession()
   const router = useRouter()
   console.log(session)
+  
   if(session){
     
         router.push("/process")
